@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "airhockey/_version.py"
+
+[tool.setuptools]
+packages = ["airhockey"]
+include-package-data = true
+
+[project]
+name = "airhockey"
+version = "0.0.1"
+readme = "README.md"
+description = "Airtable querying and writing package for the Behnia lab database."
+license = {text="GPL-3.0-or-later"}
+authors = [
+    {name="Sharon Su", email="sjs2290@columbia.edu"},
+]
+maintainers = [
+    {name = "Sharon Su", email = "sjs2290@columbia.edu"},
+]
+dependencies = [
+    "airtable",
+    "pandas",
+    "IPython"
+]

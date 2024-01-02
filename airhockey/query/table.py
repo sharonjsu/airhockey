@@ -25,7 +25,7 @@ class Table:
             self.formula = self.format_formula(kwargs)
         else:
             self.formula = None
-        print(self.formula)
+        
         self.df = self.dict_to_df()
 
     def dict_to_df(self):
