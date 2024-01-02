@@ -95,11 +95,11 @@ class GenotypeTables(FlyDataTable):
             if value is list:
                 temp += self.soft_list_parse(key, value)+", "
             else:
-                temp += f"FIND('{value}'," + "{%s}), " % key
+                temp += f"FIND('{value.casefold()}'," + "LOWER({%s})), " % key
         return temp[:-2]
 
     def soft_list_parse(self, key, value):
         temp = ""
         for i in value:
-            temp += f"FIND('{value}'," + "{%s})" % key
+            temp += f"FIND('{value.casefold()}'," + "LOWER({%s}))" % key
         return f"OR({temp[:-2]})"
