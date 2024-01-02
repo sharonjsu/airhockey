@@ -1,0 +1,12 @@
+"""
+Config file for access tokens.
+"""
+
+READ_ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
+
+WRITE_ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
+
+
+FLYDATA_BASE_ID = 'app6amtH7WKxXa3MG'
+
+SHARON_BASE_ID = 'appTPgurJ40lf58KT'
