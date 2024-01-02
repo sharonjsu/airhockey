@@ -1,5 +1,5 @@
 # airhockey
-`airhockey`, a package for querying and writing to Airtable for the Behnia lab database.
+`airhockey`, a package for passing information back and forth from Airtable for the Behnia lab database.
 
 Sections:
 - [Installation](#installation)
