@@ -1,5 +1,5 @@
 
-<img src="docs/header.png">
+<img src="docs/header.png" width = "1000">
 
 # airhockey
 `airhockey`, a package for passing information back and forth from Airtable for the Behnia lab database.
