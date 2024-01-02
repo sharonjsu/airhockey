@@ -3,7 +3,7 @@
 
 Sections:
 - [Installation](#installation)
-- [Getting Started](#ettingstarted)
+- [Getting Started](#getting-started)
 - [Structure](#structure)
 
 ## Installation
