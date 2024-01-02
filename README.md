@@ -1,3 +1,6 @@
+
+<img src="docs/header.png">
+
 # airhockey
 `airhockey`, a package for passing information back and forth from Airtable for the Behnia lab database.
 
@@ -8,7 +11,7 @@ Sections:
 
 ## Installation
 
-This package is compliant with any `setuptools`-supporting installation procedure. Navigate to the directory containing the file `pyproject.toml` and type in your CLI:
+Navigate to the directory containing `pyproject.toml` and type in your CLI:
 ```
 python3 -m pip install .
 ```
