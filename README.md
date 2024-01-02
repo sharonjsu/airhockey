@@ -20,4 +20,4 @@ Add your access token into the config.py file. I'll add instructions later but I
 ## Structure
 
 
- I will outline what the table structure looks like here later...
+ I will outline what the table structure looks like here later, but you can also just look at the classes yourself.
