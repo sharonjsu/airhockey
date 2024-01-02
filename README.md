@@ -24,3 +24,7 @@ Add your access token into the config.py file. I'll add instructions later but I
 
 
  I will outline what the table structure looks like here later, but you can also just look at the classes yourself.
+
+
+## TO DO: 
+- Current version not robust to arbitrary changes in Airtable column titles
