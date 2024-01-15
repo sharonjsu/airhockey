@@ -30,7 +30,7 @@ class FlyGenotype(GenotypeTables):
         display(self.df)
 
 
-class Stocks(GenotypeTables):
+class Stocks(FlyDataTable):
     """
     Class for Stocks
     """

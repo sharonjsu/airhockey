@@ -28,3 +28,9 @@ Add your access token into the config.py file. I'll add instructions later but I
 
 ## TO DO: 
 - Current version not robust to arbitrary changes in Airtable column titles
+- Actually implement a config parser or something instead of just shoving your token as a global variable in a .py file lmao
+- Unit tests
+- Fix Stock casefold bug
+- Add search function for "all" [just convert everything to a string]
+- Think of a system so that people can access their own tables without having to actually hardcode it into anything aside from a config file? 
+        - Maybe make generic all the functions 
